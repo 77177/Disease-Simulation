@@ -116,7 +116,6 @@ int main()
 		}
 
 		int a, b;
-
 		do {
 			a = rand() % 80;
 			b = rand() % 80;
