@@ -38,13 +38,9 @@ int main()
 	fbn[10][10]{ "Jacklyn","Jay","Josephine","Misa","Masie","Lisa","Lyina","Debra","Ina","Aziza" };
 	list<creature> pop;
 
-
-
 	//CLEARING OUT THE FILES
 	remove("qwerty.txt");
 	remove("qwerty123.txt");
-
-
 
 	//START INTERFACE
 	cout << "//////////////////////////////////////////////////////////////" << endl;
@@ -138,12 +134,7 @@ int main()
 				break;
 			}
 		} while (field[a][b] != ' ');
-
 		pop.push_back(form);
-
-
-
-
 	}
 	list<creature>::iterator m;
 	do
@@ -151,7 +142,6 @@ int main()
 		if (time(NULL) == n + 0,1)
 		{   //CLEAN THE CONSOLE
 			system("cls");
-
 			if (k == 'q') {
 
 				//SAVE TO FILE
